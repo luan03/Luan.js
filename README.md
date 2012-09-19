@@ -1,3 +1,1 @@
-Luan.js
-
-Framework MVC - OOP
+Luan.js dá estrutura para aplicações web, utilizando Design Patterns e OOP.

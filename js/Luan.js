@@ -1,32 +1,37 @@
 var Luan = Luan || {};
-            Luan.Utils = Luan.Utils || {};
-            Luan.Models = Luan.Models || {};
-            Luan.Views = Luan.Views || {};
+           Luan.Utils = Luan.Utils || {};
+           Luan.Models = Luan.Models || {};
+           Luan.Views = Luan.Views || {};
 
 
             //Models
              Luan.Models = {
-                Produtos: new Array(),
+                CollectionItens: new Array(),
 
-                Produtosinsert: function(o){
-                   this.Produtos.push(o);
-                },
+                setCollection: function(o){
+                   return this.CollectionItens.push(o);
+                }
             };
 
             Luan.Models.List = {
                 ListItens: [
-                        {Name : "Fxf", Price : 8.10, InStock : true},
-                        {Name : "fre", Price : 8.20, InStock : true},
-                        {Name : "fsa", Price : 8.30, InStock : false},
-                        {Name : "swe", Price : 8.40, InStock : true},
-                        {Name : "fop", Price : 8.50, InStock : true}
+                        {Name : "Produto1", Price : 8.10, InStock : true },
+                        {Name : "Produto2", Price : 8.20, InStock : true },
+                        {Name : "Produto",  Price : 8.30, InStock : false},
+                        {Name : "Produto3", Price : 8.40, InStock : true },
+                        {Name : "Produto4", Price : 8.50, InStock : true }
                     ],
 
                 totalList: function() {
                     Luan.Views.Logs(Luan.Views.messageViews.MSGLoadData);
                     return Luan.Models.List.ListItens.length;
-                }
-                
+                },
+
+                getItens: function(){
+                    console.log(Luan.Models.CollectionItens);
+                },
+
+                setItens : Luan.Models.setCollection()
             };
 
             
@@ -36,6 +41,7 @@ var Luan = Luan || {};
                     MSGFinish: 'Application Finishing...',
                     MSGLoadData: 'Data Loaded'
                 },
+
                 Logs: function (msg){
                     console.log(msg)
                 }
@@ -43,11 +49,7 @@ var Luan = Luan || {};
 
 
            
-
             Luan.Utils = {
-                imprimeProdutos: function(){
-
-                },
 
                 //Main
                 AppStart: function(){

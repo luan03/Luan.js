@@ -28,7 +28,7 @@ var Luan = Luan || {};
                 },
 
                 getItens: function(){
-                    console.log(Luan.Models.CollectionItens);
+                    consol.log(ListItens);
                 },
 
                 setItens : Luan.Models.setCollection()

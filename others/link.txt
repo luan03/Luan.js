@@ -2,3 +2,6 @@ Taxa de remarca��o: Apenas para viagens com origem Brasil. Para origens em o
 
 
 http://www.tam.com.br/b2c/vgn/v/index.jsp?vgnextoid=987a7518eca4a310VgnVCM1000009508020aRCRD
+
+
+http://www.tam.com.br/b2c/jsp/AlteraPais.jhtml?combo_pais=US&redirect=/b2c/jsp/EscolherVooHorario.jhtml%3FdsAnoPartida=2012%26dataMarcada=1%26dataMarcada=0%26tipoBusca=%26tipoBusca=%26icViajePontos=N%26dsDiaPartida=23%26dsMesPartida=10%26dsAeroportoOrigem=MCO%26dsAeroportoDestino=GIG%26isLogado=0%26ida_volta=0%26aeroOrigem=MCO%26aeroDestino=GIG%26hasTemplate=true%26dtPartida=23/11/2012%26dsPeriodoPartida=0000%26qtAdult=1%26qtInfant=0%26qtChild=0%26chkFlexData=true%26utm_campaign=DIA_TECNOLOGIA-MCO-GIG_OW%26utm_medium=DEEPLINK_DIA_TECNOLOGIA%26utm_source=OFERTASTAM_DIA_TECNOLOGIA%26utm_content=MCO-GIG_OW-_-yyyy-11-23-_-%26utm_term=flexivel

@@ -11,3 +11,5 @@
 </ul>
 
 <p>Todos os módulos podem ser extendidos a frameworks de terceiros.</p>
+
+<p>O Uso aqui é feito através de objetos métodos e atributos.</p>

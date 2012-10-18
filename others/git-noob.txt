@@ -1,0 +1,22 @@
+acesso: cd
+listar: dir
+mkdir
+
+commitar: git commit -am''
+update: git pull origin master
+subir pro servidor: git push origin master
+saber arquivos alterados: git status
+
+adicionar arquivos: git add
+
+tirar arquivos do add: git  reset HEAD nomedoarquivo.php
+
+discartar arquivos: git checkout nomedoarquivo.php (desfazer alterações rollback)
+
+git add -p (mostra oque foi alterado no arquivo a ser comitado)
+é mostrado as opçoes (básico, escolha apenas y/n) sim ou não
+
+lista todas as alterações estão no staging =  git diff --staged 
+
+git log - exibe o histórico de informações sobre os commits de um projeto;
+sair do log = q

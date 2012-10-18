@@ -2,7 +2,7 @@ acesso: cd
 listar: dir
 mkdir
 
-commitar: git commit -am''
+commitar: git commit -m "comentario de alteracao"
 update: git pull origin master
 subir pro servidor: git push origin master
 saber arquivos alterados: git status

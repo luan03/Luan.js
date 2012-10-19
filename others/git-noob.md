@@ -43,6 +43,12 @@
 		 <li><code>git rm <nomeDoArquivo.txt></code> : Deletar um arquivo</li>
 		</ul>
 
+		<p>
+			- Podemos adicionar somente uma alteração: git add testegit
+				adicionar todas as alterações: $ git add .
+			git commit -m "mensagem teste para o tutorial" Agora as alterações foram adicionadas ao controle de versão. Mas ainda estão somente na máquina local.
+</p>
+
 	</li>
 </ol>
 

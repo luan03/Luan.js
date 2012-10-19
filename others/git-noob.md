@@ -21,7 +21,7 @@
 <ol>
 	<li>
 		<p><a name="usage">Usando o git</a></p>
-		<p>Segue o guia de uso do git para (Windows)</p>
+		<p>Segue o guia de uso do git</p>
 
 	</li>
 	<li>
@@ -42,8 +42,6 @@
 		 <li><code>q</code> : Sair do log</li>
 		 <li><code>git rm <nomeDoArquivo.txt></code> : Deletar um arquivo</li>
 		</ul>
-
-		<p>* Para navegacao atraves do console, utilizar comandos do Ms Dos (Windows)</p>
 
 	</li>
 </ol>

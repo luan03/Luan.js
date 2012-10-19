@@ -9,7 +9,7 @@
 	<li>Karol Harumi <a href="http://twitter.com/karolharumi">@karolharumi</a>, <a href="https://github.com/karolharumi">github</a></li>
 </ul>
 
-<h2>Indice</h2>
+<h2>Índice</h2>
 
 <ul>
 	<li><a href="#usage">Usando o git</a></li>
@@ -21,7 +21,7 @@
 <ol>
 	<li>
 		<p><a name="usage">Usando o git</a></p>
-		<p>Segue o guia de uso do git</p>
+		<p>Segue o guia de uso do git para você controlar as versões do seu projeto</p>
 
 	</li>
 	<li>
@@ -42,6 +42,12 @@
 		 <li><code>q</code> : Sair do log</li>
 		 <li><code>git rm <nomeDoArquivo.txt></code> : Deletar um arquivo</li>
 		</ul>
+
+		<p>
+			- Podemos adicionar somente uma alteração: git add testegit
+				adicionar todas as alterações: $ git add .
+			git commit -m "mensagem teste para o tutorial" Agora as alterações foram adicionadas ao controle de versão. Mas ainda estão somente na máquina local.
+</p>
 
 	</li>
 </ol>

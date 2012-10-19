@@ -17,8 +17,10 @@
 	<li>
 		<p><a name="usage">Usando o git</a></p>
 		<p>Segue o guia de uso do git para (Windos)</p>
+
 	</li>
 	<li>
+		<p><a name="command-list">Lista de comandos</a></p>
 		<p>Seguem alguns comandos basicos:</p>
 
 		<ul>
@@ -36,6 +38,7 @@
 		</ul>
 
 		<p>* Para navegacao atraves do console, utilizar comandos do Ms Dos (Windows)</p>
+		
 	</li>
 </ol>
 

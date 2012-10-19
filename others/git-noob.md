@@ -5,9 +5,8 @@
 <h2>Esse é um Documento Público e novas ideias para melhorar os códigos correspondentes são sempre bem vindas. Contribua!</h2>
 
 <ul>
-	<li>
-		Luan Fagundes <a href="http://twitter.com/luan03">@luan03</a>, <a href="https://github.com/luan03">github</a>
-	</li>
+	<li>Luan Fagundes <a href="http://twitter.com/luan03">@luan03</a>, <a href="https://github.com/luan03">github</a></li>
+	<li>Karol Harumi <a href="http://twitter.com/karolharumi">@karolharumi</a>, <a href="https://github.com/karolharumi">github</a></li>
 </ul>
 
 <h2>Indice</h2>

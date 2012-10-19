@@ -35,6 +35,7 @@
 		 <li><code>git diff --staged</code> : Lista todas as informacoes em staged</li>
 		 <li><code>git log</code> : Lista historico de informacoes sobre commits</li>
 		 <li><code>q</code> : Sair do log</li>
+		 <li><code>git rm <nomeDoArquivo.txt></code> : Deletar um arquivo</li>
 		</ul>
 
 		<p>* Para navegacao atraves do console, utilizar comandos do Ms Dos (Windows)</p>

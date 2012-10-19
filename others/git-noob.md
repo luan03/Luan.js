@@ -2,9 +2,15 @@
 
 <p>Git Noob - Guia de referencia de comandos</p>
 
+<h2>Esse é um Documento Público e novas ideias para melhorar os códigos correspondentes são sempre bem vindas. Contribua!</h2>
 
+<ul>
+	<li>
+		Luan Fagundes <a href="http://twitter.com/luan03">@luan03</a>, <a href="https://github.com/luan03">github</a>
+	</li>
+</ul>
 
-<h2>�ndice</h2>
+<h2>Indice</h2>
 
 <ul>
 	<li><a href="#usage">Usando o git</a></li>
@@ -16,7 +22,7 @@
 <ol>
 	<li>
 		<p><a name="usage">Usando o git</a></p>
-		<p>Segue o guia de uso do git para (Windos)</p>
+		<p>Segue o guia de uso do git para (Windows)</p>
 
 	</li>
 	<li>

@@ -7,8 +7,8 @@
 <h2>Índice</h2>
 
 <ul>
-	<li><a name="usage">Usando o git</a></li>
-	<li><a name="command-list">Lista de comandos</a></li>
+	<li><a href="usage">Usando o git</a></li>
+	<li><a href="command-list">Lista de comandos</a></li>
 </ul>
 
 <h2>Guia de uso</h2>
@@ -38,7 +38,7 @@
 		</ul>
 
 		<p>* Para navegacao atraves do console, utilizar comandos do Ms Dos (Windows)</p>
-		
+
 	</li>
 </ol>
 

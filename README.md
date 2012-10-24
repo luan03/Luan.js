@@ -1,7 +1,8 @@
 <h1>Luan.js</h1>
 
-<p>Luan.js dá estrutura para aplicações web, utilizando Design Patterns e OOP.</p>
+<p>Luan.js dá estrutura para aplicações web, utilizando MVC, Design Patterns e OOP.</p>
 
+<h2>MVC</h2>
 <p>Foram criados os seguintes modulos:</p>
 
 <ul>
@@ -10,7 +11,7 @@
  <li><code>Controller (Utils)</code> : Métodos de negócio</li>
 </ul>
 
-<p>Todos os módulos podem ser extendidos a frameworks de terceiros.</p>
+<p>Os Controllers podem ser extendidos a frameworks de terceiros.</p>
 
 <h2>Design Patterns</h2>
 

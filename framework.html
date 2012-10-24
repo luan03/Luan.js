@@ -9,6 +9,23 @@
 </head>
 <body>
     <a href="javascript:void(0);" id="elemento">link</a>
+
+
     <script type="text/javascript" src="js/Luan.js"></script>
+    <script type="text/javascript" src="js/Singleton.js"></script>
+    
+    <script type="text/javascript">
+	 Luan.App = (function () {
+            var init = function () {
+                Luan.Utils.AppStart();
+            };
+             
+            return {
+                init: init
+            };
+        }());
+         
+        Luan.App.init();
+    </script>
 </body>
 </html>

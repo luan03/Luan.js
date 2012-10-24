@@ -1,10 +1,51 @@
 var Luan = Luan || {};
-           Luan.Utils = Luan.Utils || {};
-           Luan.Models = Luan.Models || {};
-           Luan.Views = Luan.Views || {};
+            Luan.Utils = Luan.Utils || {};
+            Luan.Models = Luan.Models || {};
+            Luan.Views = Luan.Views || {};
 
 
-            //Models
+        // ----------------------------------------------------------------------- Main
+
+        Luan.Utils = {
+
+            
+            AppStart: function(){
+                Luan.Views.Logs(Luan.Views.messageViews.MSGinit);
+
+                //Init Singleton
+                Luan.Utils.singleton.init();
+                
+                var el = document.getElementById('elemento');
+                el.addEventListener("click", this.imprime, false);
+            },
+
+            imprime: function(){
+                console.log(Luan.Utils.config.CONSTANTS.STATEVIEW.DDINPROGRESS);
+            }
+        };
+
+
+        //Config Project
+        Luan.Utils.config = {
+            version: "1.0.1",
+            statusApp: "Loaded",
+            timeRun: "full time",
+            queued: false,
+        
+            CONSTANTS: {
+                INIT: { INITOK: 1, INITFAIL: 0},
+                STATEVIEW: { IDLE: "IDLE", DDINPROGRESS: "DDINPROGRESS"}
+            }
+            
+        };
+
+        //Create Object Pattern
+        Luan.Utils.Singleton = {};
+
+
+
+            // -------------------------------------------------------------------  Models
+
              Luan.Models = {
                 CollectionItens: new Array(),
 
@@ -34,42 +75,18 @@ var Luan = Luan || {};
                 setItens : Luan.Models.setCollection()
             };
 
-            
+
+            //---------------------------------------------------------------------- Views
+
             Luan.Views = {
                 messageViews: {
                     MSGinit: 'Application initialized...',
                     MSGFinish: 'Application Finishing...',
-                    MSGLoadData: 'Data Loaded'
+                    MSGLoadData: 'Data Loaded',
+                    initSingleton: "Singleton initialized..."
                 },
 
                 Logs: function (msg){
                     console.log(msg)
                 }
             };
-
-
-           
-            Luan.Utils = {
-
-                //Main
-                AppStart: function(){
-                    Luan.Views.Logs(Luan.Views.messageViews.MSGinit);
-                    
-                    var el = document.getElementById('elemento');
-                    el.addEventListener("click", Luan.Utils.imprimeProdutos, false);
-                }
-            };
-
-           
-            //Initialize Aplicativo
-            Luan.App = (function () {
-                var init = function () {
-                    Luan.Utils.AppStart();
-                };
-                 
-                return {
-                    init: init
-                };
-            }());
-             
-            Luan.App.init();

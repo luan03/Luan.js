@@ -11,3 +11,32 @@
 </ul>
 
 <p>Todos os módulos podem ser extendidos a frameworks de terceiros.</p>
+
+<p>/************** Creational Pattern
+
+        - Manipulação e criação de objetos
+        - Controle  da criação do mesmo
+
+        Padrões:  Constructor, Factory, Abstract, Prototype, Singleton and Builder. 
+
+        ****************************************************************************/
+
+
+
+         /************** Structural Pattern
+
+        - Estrutura do projeto
+        - Composição dos objetos para fazer  relação dos mesmos.
+
+        Padrões:  Decorator, Facade, Flyweight, Adapter and Proxy. 
+
+        ****************************************************************************/
+
+
+         /************** Behavioral Pattern
+
+        - Simplificar comunicação entre objetos
+
+        Padrões:  Iterator, Mediator, Observer and Visitor.
+
+        ****************************************************************************/</p>

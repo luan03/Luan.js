@@ -12,7 +12,7 @@
 
 <p>Todos os módulos podem ser extendidos a frameworks de terceiros.</p>
 
-<p>/************** Creational Pattern
+<!--/************** Creational Pattern
 
         - Manipulação e criação de objetos
         - Controle  da criação do mesmo
@@ -39,4 +39,5 @@
 
         Padrões:  Iterator, Mediator, Observer and Visitor.
 
-        ****************************************************************************/</p>
+        ****************************************************************************/ -->
+<p>O Uso aqui é feito através de objetos métodos e atributos.</p>

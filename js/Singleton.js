@@ -6,7 +6,7 @@
 				Luan.Views.Logs(Luan.Views.messageViews.initSingleton);
 			}
 
-			//implements
+			// implements
 		};
 
 		// Trabalhando apenas com a unica instancia desse objeto.

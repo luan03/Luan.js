@@ -39,5 +39,5 @@
 
         Padrões:  Iterator, Mediator, Observer and Visitor.
 
-        *******************************************************************************/ -->
+        *****************************************************************************/ -->
 <p>O Uso aqui é feito através de objetos métodos e atributos.</p>

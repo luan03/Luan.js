@@ -9,4 +9,4 @@
 			// implements
 		};
 
-		// Trabalhando apenas com a unica instancia desse objeto.
+		// Uma classe com apenas uma única instância com pontos de acesso globais.

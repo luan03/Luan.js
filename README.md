@@ -14,32 +14,22 @@
 
 <h2>Design Patterns</h2>
 
-		<p>Creational Pattern</p>
-		<ul>
-        	<li>- Manipulação e criação de objetos</li>
-        	<li>- Controle  da criação do mesmo</li>
-        </ul>
+<strong>Creational Pattern</strong>
+<ul>
+<li>Manipulação e criação de objetos</li>
+<li>Controle  da criação do mesmo</li>
+</ul>
+<p>Padrões:  Constructor, Factory, Abstract, Prototype, Singleton and Builder.</p>
 
-        <small>Padrões:  Constructor, Factory, Abstract, Prototype, Singleton and Builder.</small>
+<strong>Structural Pattern</strong>
+<ul>
+<li>Estrutura do projeto</li>
+<li>Composição dos objetos para fazer  relação dos mesmos.</li>
+</ul>	
+<p>Padrões:  Decorator, Facade, Flyweight, Adapter and Proxy. </p>
 
-        
-        <p>Structural Pattern</p>
-        <ul>
- 			<li>- Estrutura do projeto</li>
-        	<li>- Composição dos objetos para fazer  relação dos mesmos.</li>
-        </ul>	
-
-        <small>Padrões:  Decorator, Facade, Flyweight, Adapter and Proxy. </small>
-
-
-
-        <p>Behavioral Pattern</p>
-        <ul>
-        	<li>- Simplificar comunicação entre objetos</li>
-        </ul>
-
-        <small>Padrões:  Iterator, Mediator, Observer and Visitor.</small>
-
-
-        
-<p>O Uso aqui é feito através de objetos métodos e atributos.</p>
+<strong>Behavioral Pattern</strong>
+<ul>
+<li>Simplificar comunicação entre objetos</li>
+</ul>
+<p>Padrões:  Iterator, Mediator, Observer and Visitor.</p>

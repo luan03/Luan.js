@@ -34,3 +34,5 @@
 <li>Simplificar comunicação entre objetos</li>
 </ul>
 <p>Padrões:  Iterator, Mediator, Observer and Visitor.</p>
+
+<a href="http://net.tutsplus.com/tutorials/javascript-ajax/digging-into-design-patterns-in-javascript/" target="_blank">Implements</a>

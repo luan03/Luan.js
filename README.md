@@ -20,7 +20,7 @@
 <li>Manipulação e criação de objetos</li>
 <li>Controle  da criação do mesmo</li>
 </ul>
-<p>Padrões:  Constructor, Factory, Abstract, <a href="javascript:void(0);">Prototype</a>, Singleton and <a href="javascript:void(0);">Builder</a>.</p>
+<p>Padrões:  Constructor, Factory, Abstract, <a href="javascript:void(0);">Prototype</a>, <a href="js/Singleton.js">Singleton</a> and <a href="javascript:void(0);">Builder</a>.</p>
 
 <strong>Structural Pattern</strong>
 <ul>

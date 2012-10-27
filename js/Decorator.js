@@ -4,7 +4,7 @@
    		console.log('Bem Vindo!');
    }
 
-   //interface
+   //interface que o decorator vai implementar
    Pessoa.prototype = {
 
 	   	falar: function(){
@@ -25,7 +25,7 @@
    		this.pessoa = pessoa;
    }
 
-   //implements interface Pessoa
+   //implementing the same interface
    PessoaDecorator.prototype = {
 
    		falar: function(){
@@ -39,7 +39,7 @@
 	   	}
    }
 
-   // novas funcionalidades
+   // NOVOS DECORATORS
     var andarSkate = function(pessoa) {
         PessoaDecorator.call(this, pessoa);
         console.log('Skatista Mano');
@@ -50,11 +50,12 @@
         PessoaDecorator.call(this, pessoa);
         console.log('Andando de bike');
     }
-
     andarBike.prototype = new PessoaDecorator();
+
+
     andarBike.prototype.falar = function() {
-        this.pessoa.falar();
-        console.log('Override method');
+        //this.pessoa.falar();
+        console.log('Add novas funcionalidade');
     }
 
 
@@ -71,3 +72,11 @@
        //call new methods
       andarBike(luan);
       andarSkate(luan);
+
+
+      /*  
+          Acrescentar responsabilidades a um objeto dinamicamente
+          Objeto usado possui as funcionalidades básicas, mas é necessário adicionar funcionalidades adicionais a ele que podem ocorrer antes ou depois da funcionalidade básica
+          Decorator muda comportamento
+
+      */

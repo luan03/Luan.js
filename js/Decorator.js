@@ -1,10 +1,9 @@
     //Construtor
-
    var Pessoa = function(){
    		console.log('Bem Vindo!');
    }
 
-   //interface que o decorator vai implementar
+   //Interface que o decorator vai implementar
    Pessoa.prototype = {
 
 	   	falar: function(){
@@ -20,12 +19,12 @@
 
 
 
-   /***** DECORATOR *******/
+   //Decorator
    var PessoaDecorator = function(pessoa){
    		this.pessoa = pessoa;
    }
 
-   //implementing the same interface
+   //Implementing the same interface
    PessoaDecorator.prototype = {
 
    		falar: function(){
@@ -39,7 +38,7 @@
 	   	}
    }
 
-   // NOVOS DECORATORS
+   //novos DECORATORS
     var andarSkate = function(pessoa) {
         PessoaDecorator.call(this, pessoa);
         console.log('Skatista Mano');

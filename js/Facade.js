@@ -28,3 +28,31 @@ var methods = (function(){
 	    window.alert("Post full screen");
 	}
 })();
+
+events: {
+    "dblclick" : "fullScreen",
+    "click #add-button" : "newPost",
+    "blur #username" : "searchUsername"
+},
+newPost: function() {
+    window.alert("Adicionar novo post");
+},
+ 
+searchUsername: function(e) {
+    window.alert("Searching username " + e.target.value);
+},
+ 
+fullScreen: function() {
+    window.alert("Post full screen");
+}
+
+/*****
+
+funcoesNomeadasAssim;
+variaveisNomeadasAssim;
+ConstrutoresNomeadosAssim;
+EnumNomeadosAssim;
+metodosNomeadosAssim;
+CONSTANTES_SIMBOLICAS_ASSIM;
+
+****/

@@ -1,12 +1,17 @@
 
-		Luan.Utils.singleton = {
+(function () {
+    "use strict";
 
-			//method init Object
-			init: function(){
-				Luan.Views.Logs(Luan.Views.messageViews.initSingleton);
-			}
+Luan.Utils.singleton = {
 
-			// implements
-		};
+	//method init Object
+	init: function(){
+		Luan.Views.Logs(Luan.Views.messageViews.initSingleton);
+	}
 
-		// Uma classe com apenas uma única instância com pontos de acesso globais.
+	// implements
+};
+
+// Uma classe com apenas uma única instância com pontos de acesso globais.
+
+})();

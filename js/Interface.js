@@ -39,9 +39,11 @@ Interface.ensureImplements = function(object) {
 	} 
 };
 
+
 function mapInstance(mapa){
 	this.mapa = mapa;
 }
+
 mapInstance.prototype = {
 	centerOnPoint: function(){
 		console.log('centerOnPoint');
@@ -56,8 +58,6 @@ mapInstance.prototype = {
 	}
 }
 
-var mapa = new mapInstance();
-displayRoute(mapa);
 
 
 //implementation
@@ -67,9 +67,12 @@ var DynamicMap = new Interface('DynamicMap', ['centerOnPoint', 'zoom', 'draw']);
 
 function displayRoute(mapInstance) {
 	
-	Interface.ensureImplements(mapInstace, DynamicMap);
+	//Interface.ensureImplements(mapInstace, DynamicMap);
+
 	mapInstance.centerOnPoint();
 	mapInstance.zoom();
 	mapInstance.draw();
 }
 
+var mapa = new mapInstance();
+displayRoute(mapa);

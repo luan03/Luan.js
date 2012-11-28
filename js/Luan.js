@@ -16,8 +16,10 @@
 
             //Init Singleton
             Luan.Utils.singleton.init();
-            var el = document.getElementById('elemento');
+            /*** validação pra quando elemento não existir
+            var el = document.getElementById('elemento'); 
             el.addEventListener("click", this.imprime, false);
+            ***/
         },
 
         imprime: function () {

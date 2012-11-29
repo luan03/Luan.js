@@ -22,20 +22,49 @@ var morreu = function ( objeto ) {
 
 //morreu(obj);
 
+var doc = document.getElementById('wrapper');
+var i = 0,
+	j = 0,
+	elements = 3,
+ 	intervalo = null;
 
- var i = 0,
- 	 intervalo = null;
+var create = function() {
+	for ( ; j < elements; j++ ) {
+		var span = document.createElement('span');
+		doc.appendChild(span);
+	}
+
+	var bola = document.getElementsByTagName('span');
+ 	var totalBolas = bola.length;
+
+ 	
+}
+
+
 
  function move() {
- 		var bola = document.getElementById('bola');
- 		bola.style.left = i + 'px';
- 		var posicao = parseInt(bola.style.left);
+ 		var bola = document.getElementsByTagName('span');
+ 		var totalBolas = bola.length;
+
+ 		for ( var j = 0; j < totalBolas; j++ ) {
+ 			bola[j].style.left = i + 'px';
+ 			var posicao = parseInt(bola[j].style.left);
+ 		}
  		
- 		if ( posicao === 750 ) {
+ 		if ( posicao === 150 ) {
  			clearInterval(intervalo);
  		}
 
  		i = i+2;
  }
 
-//intervalo = setInterval(move, 40);
+
+ var createBola = function(){
+ 	
+ 	var span = document.createElement('span');
+ 	doc.appendChild(span);
+
+ 	intervalo = setInterval(move, 40);
+ }
+
+create();

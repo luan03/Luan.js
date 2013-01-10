@@ -22,6 +22,8 @@ var morreu = function ( objeto ) {
 
 //morreu(obj);
 
+
+/*
 var doc = document.getElementById('wrapper');
 var i = 0,
 	j = 0,
@@ -68,3 +70,22 @@ var create = function() {
  }
 
 create();
+*/
+
+
+var Animacao = function(objeto){
+	objeto = this.objeto;
+}
+
+var bola = document.getElementById('')
+
+
+	var id = 0;
+
+	var ff = document.createElement('span');
+		ff.setAttribute('id','smoke-out-' +id);
+		ff.setAttribute('class','smoke-base');
+		ff.className = 'smoke-base';
+		document.body.appendChild(ff);
+
+		 throw "fail";

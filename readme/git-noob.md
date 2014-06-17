@@ -40,7 +40,7 @@
 		 <li><code>git diff --staged</code> : Lista todas as informacoes em staged</li>
 		 <li><code>git log</code> : Lista historico de informacoes sobre commits</li>
 		 <li><code>q</code> : Sair do log</li>
-		 <li><code>git rm <nomeDoArquivo.txt></code> : Deletar um arquivo</li>
+		 <li><code>git rm -r <nomeDoArquivo.txt></code> : Deletar um arquivo</li>
 		</ul>
 
 		<p>
